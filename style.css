@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.carousel-container{
+    width: 20rem; 
+    padding: 1.5rem; 
+    box-shadow: 0rem 0rem 5px; 
+    position: absolute; 
+    top: 50%; 
+    left: 30%; 
+    background-color: #fff;
+}
+
+.review{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;  
+}
+
+.review-star{
+    font-size: 12px;
+}
+
+.review-content{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.avatar{
+    width: 3rem; 
+    border-radius: 50%;
+}
+
+.name{
+    font-weight: bold; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.designation{
+    font-weight: lighter; 
+    font-size: .8rem;
+}
+
+.side-img{
+    width: 50vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(https://templatekit.jegtheme.com/hestate/wp-content/uploads/sites/40/2021/02/testimonial.jpg);
+}
